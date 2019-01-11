@@ -1,0 +1,155 @@
+:root{
+    --color-white: #fff;
+    --color-barb: rgb(255, 166, 0);
+    --color-arch: rgb(230, 52, 82);
+    --color-wiz: rgb(89, 89, 245);
+    --color-light-dark: rgba(0, 0, 0, 0.61);
+}
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+.main{
+    min-height: 100vh;
+    padding: 10px 15px;
+    /* background-color: red; */
+    background: url("../assets/images/card-bg.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+}
+
+.card-box{
+    /* height: 150px; */
+    margin: 0;
+    width: 380px;
+    background: var(--color-white);
+    border: 1px solid var(--color-white);
+    border-radius: 20px;
+    box-shadow: -6px 0 15px var(--color-light-dark);
+
+}
+
+.card-head-bg{
+    background: url("../assets/images/card-bg.jpg") center no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.trsp-image{
+        position: absolute;
+        height: 420px;
+        width: 450px;
+        top: 5px;
+        /* right: 3px; */
+        left: -70px;
+}
+
+.push-down{
+    margin-top: 35px;
+    margin-left: 35px;
+    
+}
+
+.push{
+    margin-left: 45px;
+}
+
+.levels{
+    background: var(--color-white);
+    padding: 35px 25px;
+    text-align: center;
+}
+
+.levels h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.color-barb{
+    color: var(--color-barb);
+}
+
+.color-arch{
+    color: var(--color-arch);
+}
+
+.color-wiz{
+    color: var(--color-wiz);
+}
+
+.bg-barb{
+    background-color: var(--color-barb);
+}
+
+.bg-arch{
+    background-color: var(--color-arch);
+
+}
+
+.bg-wiz{
+    background-color: var(--color-wiz);
+
+}
+
+.levels h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* color: var(--color-arch); */
+
+}
+
+.levels p{
+    font-size: 25px;
+}
+
+.lower-jarg{
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* width: 420px; */
+
+}
+
+.lower-jarg div{
+    text-align: center;
+    padding: 10px 22px;
+    border-top: 1px solid var(--color-light-dark);
+}
+
+.lower-jarg div:first-child, .lower-jarg > div:nth-child(2){
+    border-right: 1px solid var(--color-light-dark);
+}
+
+
+.lower-jarg div > p{
+    font-size: 30px;
+    color: var(--color-white);
+}
