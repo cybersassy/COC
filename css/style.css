@@ -63,17 +63,12 @@ body{
 
 .trsp-image{
         position: absolute;
-        height: 420px;
-        width: 450px;
-        top: 5px;
+        height: 400px;
+        width: 420px;
+        top: 30px;
         /* right: 3px; */
         left: -70px;
-}
-
-.push-down{
-    margin-top: 35px;
-    margin-left: 35px;
-    
+        /* transform: translate(-50% -50%); */
 }
 
 .push{
